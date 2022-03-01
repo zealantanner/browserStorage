@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bid Lab</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <div id="arrOfBids">Bids</div>
+        </div>
+        <div id="contentContainer">
+            <div>
+                <label for="bidder1">Bidder 1</label>
+                <input id="bidder1" type="number" placeholder="type bid 1 here">
+                <button onmousedown="placeBid('bidder1')">Bid!</button>
+            </div>
+            <div>
+                <label for="bidder2">Bidder 2</label>
+                <input id="bidder2" type="number" placeholder="type bid 2 here">
+                <button onmousedown="placeBid('bidder2')">Bid!</button>
+            </div>
+            <button onmousedown="clearBids()">Clear</button>
+        </div>
+        <script type="text/Javascript" src="main.js"></script>
+    </body>
+</html>
